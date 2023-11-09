@@ -4,114 +4,134 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Услуги</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <img src="./img/logo.svg" alt="logo">
-        <p>DesignerOne</p>
+    <header class="header">
+        <img  class="header-img" src="./img/logo.svg" alt="logo">
+        <p class="header-title">DesignerOne</p>
         <ul>
             <li>
-                <a href="#">
+                <a class="header-contact-link" href="#">
                     <img src="./img/icon-phone_2.png" alt="phone">
-                    <span>+38 (097) 77-77-777</span>
+                    <span class="header-contact-text">+38 (097) 77-77-777</span>
                 </a>
             </li>
             <li>
                 <img src="./img/icon-clock_2.png" alt="clock">
-                <span>Пн-Пт 10:00-18:00</span>
+                <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
             </li>
             <li>
-                <img src="./img/icon-envelope_2.png" alt="envelope1">
-                <span>order@gmail.com</span>
+                <img class="header-contact-link" src="./img/icon-envelope_2.png" alt="envelope1">
+                <span class="header-contact-text">order@gmail.com</span>
             </li>
             <li>
                 <img src="./img/icon-placeholder_2.png" alt="placeholder">
-                <span>Винница, Соборная 77</span>
+                <span class="header-contact-text">Винница, Соборная 77</span>
             </li>
         </ul>
         <nav>
             <ul>
-                <li><a href="#">главаная</a></li>
-                <li><a href="#"></a>услуги</li>
-                <li><a href="#"></a>кейсы</li>
-                <li><a href="#"></a>о компании</li>
-                <li><a href="#"></a>контакты</li>
+                <li><a class="header-nav-link" href="#">главаная</a></li>
+                <li><a class="header-nav-link" href="#"></a>услуги</li>
+                <li><a class="header-nav-link" href="#"></a>кейсы</li>
+                <li><a class="header-nav-link" href="#"></a>о компании</li>
+                <li><a class="header-nav-link" href="#"></a>контакты</li>
             </ul>  
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Дизайнерские услуги в Виннице</h1>
-            <a href="#">Наша презентация</a>
+        <section class="desc">
+            <h1 class="desc-title">Дизайнерские услуги в Виннице</h1>
+            <a class="desc-link" href="#">Наша презентация</a>
         </section>
-        <section>
-            <h2>Наши услуги</h2>
-            <p>Мы специализируемся</p>
+        <section class="service">
+            <h2 class="section-title">Наши услуги</h2>
+            <p class="section-sub-title">Мы специализируемся</p>
             <ul>
-                <li><a href="#"></a><h3>Интерьерная визуализация</h3></li>
-                <li><a href="#"></a><h3>Визуализация экстерьера</h3></li>
-                <li><a href="#"></a><h3>Моделирование 3D объектов</h3></li>
-                <li><a href="#"></a><h3>Моделирование 3D персонажей</h3></li>
+                <li><a class="service-item-link" href="#"></a><h3 class="service-item-title">Интерьерная визуализация</h3></li>
+                <li><a class="service-item-link" href="#"></a><h3 class="service-item-title">Визуализация экстерьера</h3></li>
+                <li><a class="service-item-link" href="#"></a><h3 class="service-item-title">Моделирование 3D объектов</h3></li>
+                <li><a class="service-item-link" href="#"></a><h3 class="service-item-title">Моделирование 3D персонажей</h3></li>
             </ul>
         </section>
         <section>
-            <h2>О нас</h2>
-            <p>Компания DesignerOne</p>
+            <h2 class="section-title">О нас</h2>
+            <p class="section-sub-title">Компания <span class="section-sub-title-blue">DesignerOne</span></p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate recusandae rem numquam. Nemo facilis quia suscipit praesentium ad adipisci dolorem voluptate odio vero, voluptas architecto cumque possimus quae eligendi at!</p>
             <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено дизайн проектов</h3>
+                    <a class="about-item-link" href="#">Все проекты</a>
+                </li>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено дизайн проектов</h3>
+                    <a class="about-item-link" href="#">Все проекты</a>
+                </li>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено дизайн проектов</h3>
+                    <a class="about-item-link" href="#">Все проекты</a>
+                </li>
+                <li class="about-item">
+                    <p class="about-item-num">90</p>
+                    <h3 class="about-item-header">Завершено дизайн проектов</h3>
+                    <a class="about-item-link" href="#">Все проекты</a>
+                </li>
             </ul>
         </section>
         <section>
-            <h2>Наши клиенты</h2>
-            <p>С нами работают</p>
+            <h2 class="section-title">Наши клиенты</h2>
+            <p class="section-sub-title">С нами работают</p>
             <ul>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
-                <li><img src="./img/microsoft.png" alt="microsoft"></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
+                <li><a href="#"><img src="./img/microsoft.png" alt="microsoft"></a></li>
             </ul>
         </section>
-        <section>
-            <h2>Отзывы</h2>
-            <p>Ваши благодарности</p>
-            <button type="button">Оставить отзыв</button>
+        <section class="review">
+            <h2 class="section-title">Отзывы</h2>
+            <p class="section-sub-title">Ваши благодарности</p>
+            <button class="button" type="button">Оставить отзыв</button>
             <ul>
-                <li>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maiores maxime, perspiciatis iure nam totam eligendi, placeat nemo, quisquam odio rem! Dolore, iusto eaque inventore vel ea totam tenetur cum.</p>
+                <li class="review-item">
+                    <p class="reviews-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maiores maxime, perspiciatis iure nam totam eligendi, placeat nemo, quisquam odio rem! Dolore, iusto eaque inventore vel ea totam tenetur cum.</p>
                     <img src="./img/woman-pic.png" alt="woman">
-                    <p>Ольга Цибульская</p>
-                    <p>Директор DesignerOne</p>
+                    <p class="reviews-item-author">Ожина Максимовна</p>
+                    <p class="reviews-item-position">Директор DesignerOne</p>
                 </li>
-                <li>
-                    <blockquote>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem cupiditate sequi doloremque recusandae omnis! Molestias fuga doloribus numquam suscipit quo culpa dolore iusto voluptatem? Quod nemo voluptatum voluptate inventore accusamus!
-                    </blockquote>
+                <li class="review-item">
+                    <p class="reviews-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maiores maxime, perspiciatis iure nam totam eligendi, placeat nemo, quisquam odio rem! Dolore, iusto eaque inventore vel ea totam tenetur cum.</p>
                     <img src="./img/woman-pic.png" alt="woman">
-                    <p>Ольга Цибульская</p>
-                    <p>Директор DesignerOne</p>
+                    <p class="reviews-item-author">Ожина Максимовна</p>
+                    <p class="reviews-item-position">Директор DesignerOne</p>
                 </li>
-                <li>
-                    <blockquote>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem cupiditate sequi doloremque recusandae omnis! Molestias fuga doloribus numquam suscipit quo culpa dolore iusto voluptatem? Quod nemo voluptatum voluptate inventore accusamus!
-                    </blockquote>
+                <li class="review-item">
+                    <p class="reviews-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maiores maxime, perspiciatis iure nam totam eligendi, placeat nemo, quisquam odio rem! Dolore, iusto eaque inventore vel ea totam tenetur cum.</p>
                     <img src="./img/woman-pic.png" alt="woman">
-                    <p>Ольга Цибульская</p>
-                    <p>Директор DesignerOne</p>
+                    <p class="reviews-item-author">Ожина Максимовна</p>
+                    <p class="reviews-item-position">Директор DesignerOne</p>
                 </li>
-                <li>
-                    <blockquote>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem cupiditate sequi doloremque recusandae omnis! Molestias fuga doloribus numquam suscipit quo culpa dolore iusto voluptatem? Quod nemo voluptatum voluptate inventore accusamus!
-                    </blockquote>
+                <li class="review-item">
+                    <p class="reviews-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid maiores maxime, perspiciatis iure nam totam eligendi, placeat nemo, quisquam odio rem! Dolore, iusto eaque inventore vel ea totam tenetur cum.</p>
                     <img src="./img/woman-pic.png" alt="woman">
-                    <p>Ольга Цибульская</p>
-                    <p>Директор DesignerOne</p>
+                    <p class="reviews-item-author">Ожина Максимовна</p>
+                    <p class="reviews-item-position">Директор DesignerOne</p>
                 </li>
             </ul>
             <ul>
@@ -123,34 +143,53 @@
             <button type="button" disabled><img src="./img/arrow-left_1.png" alt="arrow-left"></button>
             <button type="button"><img src="./img/arrow-right_1.png" alt="arrow-right"></button>
         </section>
-        <section>
-            <h2>Преимущества</h2>
-            <p>Мы предлагаем</p>
-        </section>
-    </main>
-    <footer>
-        <div>
-            <h2>Связь с нами</h2>
-            <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+        <section class="advantage">
+            <!--самостоятельно перенести цвета / фоны и настройки шрифтов-->
+            <h2 class="section-title">Наши преимущества</h2>
+            <p class="section-sub-title">Мы предлагаем</p>
             <ul>
                 <li>
-                    <a href="#">
-                        <img src="./img/icon-phone_2.png" alt="phone">
-                        <span>+38 (097) 77-77-777</span>
-                    </a>
+                    <img src="./img/icon-medal.png" alt="medal">
+                    <p class="advantage-desc">Качество</p>
                 </li>
                 <li>
-                    <img src="./img/icon-envelope_2.png" alt="envelope1">
-                    <span>order@gmail.com</span>
+                    <img src="./img/icon-running.png" alt="running">
+                    <p class="advantage-desc">Оперативность</p>
+                </li>
+                <li>
+                    <img src="./img/icon-reliability.png" alt="reliability">
+                    <p class="advantage-desc">Экспертность</p>
                 </li>
             </ul>
+        </section>
+    </main>
+    <!--самостоятельно перенести цвета / фоны и настройки шрифтов-->
+    <footer class="footer">
+        <div class="footer-bkg">
+            <div>
+                <h2 class="section-sub-title white">Связь с нами</h2>
+                <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="./img/icon-phone_2.png" alt="phone">
+                            <span class="footer-contact-text">+38 (097) 77-77-777</span>
+                        </a>
+                    </li>
+                    <li>
+                        <img src="./img/icon-envelope_2.png" alt="envelope1">
+                        <span class="footer-contact-text">order@gmail.com</span>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                форма
+                <button class="button">Отправить сообщение</button>
+            </div>
         </div>
         <div>
-            форма
-        </div>
-        <div>
-            <p>2023 (c) Все права защищены. DesignerOne.ua</p>
-            <p>Разработано: DesignerOne</p>
+            <p class="footer-text">2023 (c) Все права защищены. DesignerOne.ua</p>
+            <p class="footer-text">Разработано: DesignerOne</p>
         </div>
     </footer>
     <div>nonan</div>
