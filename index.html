@@ -21,20 +21,19 @@
         <ul>
             <li>
                 <a class="header-contact-link" href="#">
-                    <img src="./img/icon-phone_2.png" alt="phone">
-                    <span class="header-contact-text">+38 (097) 77-77-777</span>
+                    <img src="./img/icon-phone.svg" alt="phone">
                 </a>
             </li>
             <li>
-                <img src="./img/icon-clock_2.png" alt="clock">
+                <img src="./img/icon-clock.svg" alt="clock">
                 <span class="header-contact-text">Пн-Пт 10:00-18:00</span>
             </li>
             <li>
-                <img class="header-contact-link" src="./img/icon-envelope_2.png" alt="envelope1">
+                <img class="header-contact-link" src="./img/icon-envelope.svg" alt="envelope1">
                 <span class="header-contact-text">order@gmail.com</span>
             </li>
             <li>
-                <img src="./img/icon-placeholder_2.png" alt="placeholder">
+                <img src="./img/icon-placeholder.svg" alt="placeholder">
                 <span class="header-contact-text">Вінниця, Соборна 77</span>
             </li>
         </ul>
@@ -154,8 +153,8 @@
                 <li><button type="button" class="review-slider-button review-slider-button-active"></button></li>
                 <li><button type="button" class="review-slider-button"></button></li>
             </ul>
-            <button class="review-slider-arrow" type="button" disabled><img src="./img/arrow-left.png" alt="arrow-left"></button>
-            <button class="review-slider-arrow review-slider-button-active" type="button"><img src="./img/arrow-right.png" alt="arrow-right"></button>
+            <button class="review-slider-arrow" type="button" disabled><img src="./img/arrow-left.svg" alt="arrow-left"></button>
+            <button class="review-slider-arrow review-slider-button-active" type="button"><img src="./img/arrow-right.svg" alt="arrow-right"></button>
         </section>
         <section class="advantage">
             <div class="container">
@@ -163,15 +162,15 @@
                 <p class="section-sub-title advantage-subtitle">Ми пропонуємо</p>
                 <ul class="advantage-list">
                     <li class="advantage-item">
-                        <img class="advantage-img" src="./img/icon-medal.png" alt="medal" width="132" height="126">
+                        <img class="advantage-img" src="./img/icon-medal.svg" alt="medal" width="132" height="126">
                         <p class="advantage-desc">Якість</p>
                     </li>
                     <li class="advantage-img" class="advantage-item">
-                        <img src="./img/icon-running.png" alt="running" width="132" height="126">
+                        <img src="./img/icon-running.svg" alt="running" width="132" height="126">
                         <p class="advantage-desc">Оперативність</p>
                     </li>
                     <li class="advantage-img" class="advantage-item">
-                        <img src="./img/icon-reliability.png" alt="reliability" width="132" height="126">
+                        <img src="./img/icon-reliability.svg" alt="reliability" width="132" height="126">
                         <p class="advantage-desc">Експертність</p>
                     </li>
                 </ul>
@@ -202,10 +201,10 @@
                     </div>
                     <div class="half-width wrp-padding">
                         <form action="#">
-                            <div class="form-contact-wrp">
+                            <div class="form-row-wrp">
                                 <label>
                                     <span class="input-label">Ім'я</span>
-                                    <input type="text" placeholder="Oleg">
+                                    <input type="text" placeholder="Стів">
                                 </label>
                                 <label>
                                     <span class="input-label">Телефон</span>
@@ -227,6 +226,39 @@
             <p class="footer-text">Розроблено: DesignerOne</p>
         </div>
     </footer>
-    <div>попап</div>
+    <div class="popap">
+        <h2 class="section-sub-title">Залишити відгук</h2>
+        <form action="">
+            <div class="form-row-wrp">
+                <label>
+                    <span class="input-label">Ім'я</span>
+                    <input type="text" placeholder="Стів">
+                </label>
+                <label>
+                    <span class="input-label">Призвіще</span>
+                    <input type="text" placeholder="Роджерс">
+                </label>
+            </div>
+            <div class="form-row-wrp">
+                <label>
+                    <span class="input-label">email</span>
+                    <input type="email" placeholder="Email">
+                </label>
+                <fieldset>
+                    <legend>Все сподобалось?</legend>
+                    <input type="radio" id="like-yes" name="like" value="yes">
+                    <label for="like-yes">так</label>
+
+                    <input type="radio" id="like-no" name="like" value="no">
+                    <label for="like-no">ні</label>
+                </fieldset>
+            </div>
+            <label>
+                <span class="input-label">Відгук</span>
+                <textarea placeholder="Відгук"></textarea>
+            </label>
+            <button class="button form-button" type="submit">Надіслати відгук</button>
+        </form>
+    </div>
 </body>
 </html>
